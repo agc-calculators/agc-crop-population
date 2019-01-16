@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Crop Population Calculator</title>
+  <link rel="stylesheet" href="/build/agc-crop-population.css" type="text/css" />
+  <script src="/build/agc-crop-population.js"></script>
+</head>
+<body>
+
+  <agc-crop-population socket="example" mode="full">
+      <div slot="results">
+      <agc-crop-population-results socket="example">
+        <div slot="empty">
+          <agc-crop-population-results-placeholder></agc-crop-population-results-placeholder>
+        </div>
+      </agc-crop-population-results>
+      <agc-crop-population-explanation socket="example"></agc-crop-population-explanation>
+      <agc-crop-population-inputs socket="example"></agc-crop-population-inputs>
+    </div>
+  </agc-crop-population>
+
+</body>
+</html>
